@@ -2,7 +2,7 @@
         <div class="container">
             <div class="row">
             <div class="col-lg-3">
-                <p class="mb-4"><img src="{{ asset('assets/images/logo.png') }}" alt="Image" class="img-fluid"></p>
+                <h1 class="mb-4"><strong>UZEDL</strong></h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui dolor, iusto iure.</p>  
                 <p><a href="#">Learn More</a></p>
             </div>

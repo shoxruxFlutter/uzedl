@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bod_sec{
+    width: 100%;
+    height: auto;
+    padding: 100px 0 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.in_click{
+    width: 40%;
+    height: 20vh;
+    margin: 20px 0 20px 0;
+}
+.block_scil:hover{
+    box-shadow: 0 0 10px aqua;
+    background-color: rgba(0, 255, 255, 0.486);
+}
+.block_scil{
+    width: 100%;
+    height: 20vh;
+    background-color: #fff;
+    box-shadow: 0 0 8px gray;
+    margin: bottom 20px; ;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.block_onn{
+    width: 100%;
+    height: auto;
+    padding: 40px 0 40px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.in_vock{
+    width: 85%;
+    height: 15vh;
+}
+.block_vock{
+    width: 100%;
+    height: 15vh;
+    background-color: #fff;
+    box-shadow: 0 0 8px gray;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.block_vock:hover{box-shadow: 0 0 10px aqua; background-color: rgba(0, 255, 255, 0.486);}
+
+@media (max-width: 700px){
+    .block_onn{
+        width: 100%;
+        height: auto;
+        padding: 40px 0 40px 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .in_click{
+        width: 80%;
+        height: 20vh;
+        margin: 20px 0 20px 0;
+    }
+}

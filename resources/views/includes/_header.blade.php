@@ -6,11 +6,11 @@
         <div class="row align-items-center">
             <div class="col-lg-9 d-none d-lg-block">
                 <a href="#" class="small mr-3"><span class="icon-question-circle-o mr-2"></span> Have a questions?</a>
-                <a href="#" class="small mr-3"><span class="icon-phone2 mr-2"></span> 10 20 123 456</a>
-                <a href="#" class="small mr-3"><span class="icon-envelope-o mr-2"></span> info@mydomain.com</a>
+                <a href="#" class="small mr-3"><span class="icon-phone2 mr-2"></span> +998 91 299 84 48</a>
+                <a href="#" class="small mr-3"><span class="icon-envelope-o mr-2"></span> anvarnurmuratov2023@gmail.com</a>
             </div>
             @if(Auth::check())
-            <a href="{{ route('user.logout') }}" class="small btn btn-primary px-4 py-2 rounded-0"><span
+            <a href="{{ route('user.logout') }}" class="small btn btn-primary px-4 py-2 rounded-0 mystyle"><span
                        ></span> Logout</a>
             @else
             <div class="col-lg-3 text-right">
@@ -29,7 +29,7 @@
         <div class="d-flex align-items-center">
             <div class="site-logo">
                 <a href="{{ route('home') }}" class="d-block">
-                    <img src="{{ asset('assets/images/logo.jpg') }}" alt="Image" class="img-fluid">
+                   UZEDL
                 </a>
             </div>
             <div class="mr-auto">
